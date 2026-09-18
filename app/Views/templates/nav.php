@@ -44,9 +44,9 @@
         Four-Pages
     </a>
     <div class="navbar-nav ms-auto">
-        <a class="nav-link px-3" href="<?= base_url('/') ?>">Home</a>
-        <a class="nav-link px-3" href="<?= base_url('about') ?>">About</a>
-        <a class="nav-link px-3" href="<?= base_url('customers') ?>">Customers</a>
-        <a class="nav-link px-3" href="<?= base_url('users') ?>">Users</a>
+        <a class="nav-link px-3" href="<?= site_url('/') ?>">Home</a>
+        <a class="nav-link px-3" href="<?= site_url('about') ?>">About</a>
+        <a class="nav-link px-3" href="<?= site_url('customers') ?>">Customers</a>
+        <a class="nav-link px-3" href="<?= site_url('users') ?>">Users</a>
     </div>
 </nav>
